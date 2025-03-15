@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-<img src="/api/index.php" style="width:30%"><br>
-<from action="graf.php" method"post">
+<img src="graf.php" style="width:30%"><br>
+<from action="/api/index.php" method"post">
 	Wybierz wierzchołek grafu z rysunku <input type="text" name="wiersz"><br>
 <input type="submit">
 </form>
